@@ -52,10 +52,5 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX3031/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
-    vendor/realme/RMX3031/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-	vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/etc/audio_effects.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/audio_effects.xml \
-    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/etc/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/diracmobile.config \
-    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/libDiracAPI_SHARED.so \
-    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libdirac.so
-
+    vendor/realme/RMX3031/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so
 
