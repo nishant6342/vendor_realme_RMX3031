@@ -52,5 +52,18 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX3031/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
-    vendor/realme/RMX3031/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so
+    vendor/realme/RMX3031/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/bt_drv.ko \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/conninfra.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/conninfra.ko \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/fmradio_drv.ko \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/fpsgo.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/fpsgo.ko \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/gps_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/gps_drv.ko \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/kheaders.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/kheaders.ko \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/met.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/met.ko \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/modules.alias:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.alias \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/modules.dep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.dep \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/modules.load:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.load \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/modules.softdep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.softdep \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko \
+    vendor/realme/RMX3031/proprietary/product/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko
 
