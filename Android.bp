@@ -19,3 +19,15 @@
 soong_namespace {
 }
 
+dex_import {
+	name: "mediatek-ims-extension-plugin",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-legacy",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-ims-legacy.jar"],
+}
+

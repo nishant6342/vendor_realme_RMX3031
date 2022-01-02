@@ -19924,10 +19924,12 @@
       type="mms"
   />
 
-  <apn carrier="Internet"
+<!-- Amit.Kawadkar@NETWORK.DATA.1816845, 2021/07/20, -->
+<!-- Wrong APN/DNN Configured in Device Software/MBN for JIO begin -->
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="840"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20175,10 +20177,10 @@
       type="mms"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="854"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20194,10 +20196,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="855"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20213,10 +20215,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="856"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20232,10 +20234,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="857"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20251,10 +20253,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="858"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20270,10 +20272,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="859"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20289,10 +20291,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="860"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20308,10 +20310,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="861"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20327,10 +20329,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="862"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20346,10 +20348,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="863"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20365,10 +20367,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="864"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20384,10 +20386,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="865"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20403,10 +20405,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="866"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20422,10 +20424,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="867"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20441,10 +20443,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="868"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20460,10 +20462,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="869"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20479,10 +20481,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="870"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20498,10 +20500,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="871"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20517,10 +20519,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="872"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20536,10 +20538,10 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="873"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -20555,14 +20557,16 @@
       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="Jio 4G"
       mcc="405"
       mnc="874"
-      apn="Jionet"
+      apn="jionet"
       type="default,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
+<!-- Amit.Kawadkar@NETWORK.DATA.1816845, 2021/07/20, -->
+<!-- Wrong APN/DNN Configured in Device Software/MBN for JIO end -->
 
   <apn carrier="IMS"
       mcc="405"
