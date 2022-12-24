@@ -1,0 +1,43 @@
+{
+    "Module": "BodySeg",
+    "AIParamComment":
+    [
+        "MTK Neuropilot Options",
+        "AccelerationMode(NP_ACCELERATION_CPU,NP_ACCELERATION_NNAPI,NP_ACCELERATION_NEURON)",
+        "AcceleratorName(none,mtk-neuron,mtk-mdla,mtk-vpu)",
+        "ExecutionPreference(kUndefined,kLowPower,kFastSingleAnswer,kSustainedSpeed)",
+        "MTK NeuronRuntime Options",
+        "DeviceKind(kEnvOptNullDevice,kEnvOptCModelDevice,kEnvOptHardware)",
+        "MDLACoreOption(Auto,Single,Dual)",
+        "RuntimeAPIQoSPreference(NEURONRUNTIME_PREFER_PERFORMANCE,NEURONRUNTIME_PREFER_POWER)",
+        "RuntimeAPIQoSPriority(NEURONRUNTIME_PRIORITY_LOW,NEURONRUNTIME_PRIORITY_MED,NEURONRUNTIME_PRIORITY_HIGH)",
+        "RuntimeAPIQoSBoostValue(NEURONRUNTIME_BOOSTVALUE_PROFILED,NEURONRUNTIME_BOOSTVALUE_MAX,NEURONRUNTIME_BOOSTVALUE_MIN)"
+    ],
+    "GeneralParamComment":  "Decrptiontrue(true,false)",
+    "Product": "19131",
+    "Platform": "MTK",
+    "AISDK": "NeuronRuntime",
+    "ParamGroup":
+    [
+        {
+            "Product": "19131",
+            "Platform": "MTK",
+            "AISDK": "Neuropilot",
+            "AccelerationMode": "NP_ACCELERATION_NEURON",
+            "AcceleratorName": "none",
+            "ExecutionPreference": "kSustainedSpeed",
+            "Decrption": true
+        },
+        {
+            "Product": "19131",
+            "Platform": "MTK",
+            "AISDK": "NeuronRuntime",
+            "DeviceKind": "kEnvOptHardware",
+            "MDLACoreOption": "Single",
+            "RuntimeAPIQoSPreference": "NEURONRUNTIME_PREFER_POWER",
+            "RuntimeAPIQoSPriority": "NEURONRUNTIME_PRIORITY_MED",
+            "RuntimeAPIQoSBoostValue": "NEURONRUNTIME_BOOSTVALUE_MAX",
+            "Decrption": true
+        }
+    ]
+}

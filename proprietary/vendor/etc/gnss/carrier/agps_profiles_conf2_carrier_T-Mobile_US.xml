@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mtk_agps_profiles maj_ver="1" min_ver="2">
+  <!-- Refer to agps_profiles_conf2.xml for values not provided in this file.
+       cur_supl_profile is supported but other supl_profile are ignored.
+       auto_profile_enable is not supported.
+  -->
+
+  <cur_supl_profile name="T-Mobile_US"
+      addr="supl.geo.t-mobile.com"
+      port="7275"
+      tls="true"
+  />
+
+  <cdma_profile name="CDMA1"
+  />
+
+  <agps_setting
+    ignore_si_for_e911="true"
+  />
+
+  <gnss_setting
+    a_glonass_satellite_enable="false"
+    a_beidou_satellite_enable="false"
+    a_galileo_satellite_enable="false"
+  />
+
+  <cp_setting
+    reject_non911_nilr_enable="true"
+  />
+
+  <up_setting
+    ca_enable="true"
+    tls_version="2"
+    glonass_msa_enable="false"
+    glonass_msb_enable="false"
+    beidou_msa_enable="false"
+    beidou_msb_enable="false"
+    galileo_msa_enable="false"
+    galileo_msb_enable="false"
+  />
+
+</mtk_agps_profiles>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wifiRusEntityConfig>
+    <!-- mt6771-->
+    <!-- WIFI FW: wifi.fw -->
+    <Entity platform="mt6771" type="wifi.fw" versionFileName="WIFI_RAM_CODE_soc2_0_3a_1.bin" fileNameList="WIFI_RAM_CODE_soc2_0_3a_1.bin;soc2_0_ram_wifi_3a_1_hdr.bin;soc2_0_ram_bt_3a_1_hdr.bin;soc2_0_ram_mcu_3a_1_hdr.bin;soc2_0_patch_mcu_3a_1_hdr.bin"/>
+    <!-- WIFI FW: wifi.cfg -->
+    <Entity platform="mt6771" type="wifi.cfg" versionFileName="wifi.cfg" fileNameList="wifi.cfg"/>
+
+    <!-- mt6779-->
+    <!-- WIFI FW: wifi.fw -->
+    <Entity platform="mt6779" type="wifi.fw" versionFileName="WIFI_RAM_CODE_soc2_0_3a_1.bin" fileNameList="WIFI_RAM_CODE_soc2_0_3a_1.bin;soc2_0_ram_wifi_3a_1_hdr.bin;soc2_0_ram_bt_3a_1_hdr.bin;soc2_0_ram_mcu_3a_1_hdr.bin;soc2_0_patch_mcu_3a_1_hdr.bin"/>
+    <!-- WIFI FW: wifi.cfg -->
+    <Entity platform="mt6779" type="wifi.cfg" versionFileName="wifi.cfg" fileNameList="wifi.cfg"/>
+
+    <!-- mt6853-->
+    <!-- WIFI FW: wifi.fw -->
+    <Entity platform="mt6853" type="wifi.fw" versionFileName="WIFI_RAM_CODE_soc2_0_3b_1.bin" fileNameList="WIFI_RAM_CODE_soc2_0_3b_1.bin;soc2_0_ram_wifi_3b_1_hdr.bin;soc2_0_ram_bt_3b_1_hdr.bin;soc2_0_ram_mcu_3b_1_hdr.bin;soc2_0_patch_mcu_3b_1_hdr.bin"/>
+    <!-- WIFI FW: wifi.cfg -->
+    <Entity platform="mt6853" type="wifi.cfg" versionFileName="wifi.cfg" fileNameList="wifi.cfg"/>
+
+    <!-- mt6873-->
+    <!-- WIFI FW: wifi.fw -->
+    <Entity platform="mt6873" type="wifi.fw" versionFileName="WIFI_RAM_CODE_soc2_0_3c_1.bin" fileNameList="WIFI_RAM_CODE_soc2_0_3c_1.bin;soc2_0_ram_wifi_3c_1_hdr.bin;soc2_0_ram_bt_3c_1_hdr.bin;soc2_0_ram_mcu_3c_1_hdr.bin;soc2_0_patch_mcu_3c_1_hdr.bin"/>
+    <!-- WIFI FW: wifi.cfg -->
+    <Entity platform="mt6873" type="wifi.cfg" versionFileName="wifi.cfg" fileNameList="wifi.cfg"/>
+
+    <!-- mt6885-->
+    <!-- WIFI FW: wifi.fw -->
+    <Entity platform="mt6885" type="wifi.fw" versionFileName="WIFI_RAM_CODE_soc3_0_1_1.bin" fileNameList="WIFI_RAM_CODE_soc3_0_1_1.bin;soc3_0_ram_wifi_1_1_hdr.bin;soc3_0_ram_wmmcu_1_1_hdr.bin;soc3_0_patch_wmmcu_1_1_hdr.bin"/>
+    <!-- WIFI FW: wifi.cfg -->
+    <Entity platform="mt6885" type="wifi.cfg" versionFileName="wifi.cfg" fileNameList="wifi.cfg"/>
+
+    <!-- mt6889-->
+    <!-- WIFI FW: wifi.fw -->
+    <Entity platform="mt6889" type="wifi.fw" versionFileName="WIFI_RAM_CODE_soc3_0_1_1.bin" fileNameList="WIFI_RAM_CODE_soc3_0_1_1.bin;soc3_0_ram_wifi_1_1_hdr.bin;soc3_0_ram_wmmcu_1_1_hdr.bin;soc3_0_patch_wmmcu_1_1_hdr.bin"/>
+    <!-- WIFI FW: wifi.cfg -->
+    <Entity platform="mt6889" type="wifi.cfg" versionFileName="wifi.cfg" fileNameList="wifi.cfg"/>
+
+    <!-- mt6893-->
+    <!-- WIFI FW: wifi.fw -->
+    <Entity platform="mt6893" type="wifi.fw" versionFileName="WIFI_RAM_CODE_soc3_0_1a_1.bin" fileNameList="WIFI_RAM_CODE_soc3_0_1a_1.bin;soc3_0_ram_wifi_1a_1_hdr.bin;soc3_0_ram_wmmcu_1a_1_hdr.bin;soc3_0_patch_wmmcu_1a_1_hdr.bin"/>
+    <!-- WIFI FW: wifi.cfg -->
+    <Entity platform="mt6893" type="wifi.cfg" versionFileName="wifi.cfg" fileNameList="wifi.cfg"/>
+
+    <!-- mt6877-->
+    <!-- WIFI FW: wifi.fw -->
+    <Entity platform="mt6877" type="wifi.fw" versionFileName="WIFI_RAM_CODE_soc5_0_1_1.bin" fileNameList="WIFI_RAM_CODE_soc5_0_1_1.bin;soc5_0_ram_wmmcu_1_1_hdr.bin"/>
+    <!-- WIFI FW: wifi.cfg -->
+    <Entity platform="mt6877" type="wifi.cfg" versionFileName="wifi.cfg" fileNameList="wifi.cfg"/>
+</wifiRusEntityConfig>

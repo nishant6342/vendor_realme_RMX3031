@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByImsi version="1">
+<virtualSpnOverride imsipattern="2080120801xxx67xxxxx" name="Virgin"/>
+<!--#ifdef ODM_WT_EDIT-->
+<!--Miao.Yuan@ODM_WT.network.SPN , 588437 ,When the 21404 card is inserted, the 20801 network must be displayed as Orange F,the 20820 network must be displayed as Orange F, 2020/11/04 -->
+<virtualSpnOverride imsipattern="2080121404xxx91xxxxx" name="Orange F"/>
+<virtualSpnOverride imsipattern="2082021404xxx91xxxxx" name="F-BYTEL"/>
+<!--#endif ODM_WT_EDIT-->
+</virtualSpnOverridesByImsi>

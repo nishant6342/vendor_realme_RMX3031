@@ -1,0 +1,22 @@
+{
+    "VideoEnhance": [
+        {
+           "proName": 20615,
+            "cameraId": 1,
+            "nvStartBvTrigger": 0.0,
+            "nvTransInter": 10.0,
+            "nvBrightenLevel": 0.55,
+            "nvLocalEnable": 1,
+            "nvMaxLceStrenth": 1.0
+        },
+        {
+            "proName": 20615,
+            "cameraId": 0,
+            "nvStartBvTrigger": -20.0,
+            "nvTransInter": 20.0,
+            "nvBrightenLevel": 0.6,
+            "nvLocalEnable": 0,
+            "nvMaxLceStrenth": 1.0
+        }
+    ]
+}
