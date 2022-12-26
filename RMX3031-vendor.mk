@@ -6,8 +6,16 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX3031
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/RMX3031/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_disabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled.xml \
+    vendor/realme/RMX3031/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml \
+    vendor/realme/RMX3031/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml \
+    vendor/realme/RMX3031/proprietary/vendor/etc/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml \
+    vendor/realme/RMX3031/proprietary/vendor/etc/bluetooth_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_offload_audio_policy_configuration.xml \
+    vendor/realme/RMX3031/proprietary/vendor/etc/bluetooth_ums_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_ums_offload_audio_policy_configuration.xml \
+    vendor/realme/RMX3031/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/realme/RMX3031/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/realme/RMX3031/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
+    vendor/realme/RMX3031/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
     vendor/realme/RMX3031/proprietary/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
     vendor/realme/RMX3031/proprietary/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so \
     vendor/realme/RMX3031/proprietary/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
@@ -21,6 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
     vendor/realme/RMX3031/proprietary/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_rtp.so \
     vendor/realme/RMX3031/proprietary/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_socketwrapper.so \
+    vendor/realme/RMX3031/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
+    vendor/realme/RMX3031/proprietary/lib64/libmtkbluetooth_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkbluetooth_jni.so \
     vendor/realme/RMX3031/proprietary/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_service.so \
     vendor/realme/RMX3031/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
     vendor/realme/RMX3031/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
@@ -1482,7 +1492,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/firmware/WIFI_RAM_CODE_soc3_0_1a_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc3_0_1a_1.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/conninfra.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/conninfra.cfg \
     vendor/realme/RMX3031/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
-    vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_cfg_6781v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6781v01.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/gt1151_default_firmware2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware2.img \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_cfg_6781v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6781v01.bin \    
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_cfg_6785v96.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v96.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_cfg_6785v99.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v99.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6853v01.bin \
@@ -1496,6 +1507,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_cfg_90hz6877.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6877.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_cfg_90hz6885.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6885.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_cfg_gt9885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_gt9885v1.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/gt9896s_cfg_6789v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_cfg_6789v01.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/gt9896s_firmware_6789v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6789v01.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_firmware_6781v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6781v01.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_firmware_6785a4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785a4.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9886_firmware_6785ae.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785ae.bin \
@@ -1542,6 +1555,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9896s_firmware_6895v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6895v01.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/gt9896s_firmware_6983v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9896s_firmware_6983v01.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_patch.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/mt6635_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_coeff.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/mt6635_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_patch.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
@@ -1549,6 +1564,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/firmware/novatek_ts_fw_jdi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_jdi.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/novatek_ts_fw_tm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_tm.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/remoteproc_scp:$(TARGET_COPY_OUT_VENDOR)/firmware/remoteproc_scp \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/soc2_2_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_bt_1_1_hdr.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/soc2_2_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_bt_1a_1_hdr.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/soc2_2_ram_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_mcu_1_1_hdr.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/soc2_2_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_mcu_1a_1_hdr.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/soc2_2_ram_wifi_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_wifi_1_1_hdr.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/soc2_2_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_wifi_1a_1_hdr.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/soc3_0_patch_wmmcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_patch_wmmcu_1a_1_hdr.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/soc3_0_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_bt_1_1_hdr.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/soc3_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_bt_1a_1_hdr.bin \
@@ -1558,7 +1579,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/firmware/soc3_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wifi_1a_1_hdr.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin \
     vendor/realme/RMX3031/proprietary/vendor/firmware/valhall-1691526.wa:$(TARGET_COPY_OUT_VENDOR)/firmware/valhall-1691526.wa \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1_1.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1a_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1a_1.bin \
+    vendor/realme/RMX3031/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
+    vendor/realme/RMX3031/proprietary/vendor/lib/AV1SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AV1SecureVdecCA.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/HEVCSecureVdecCA.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/realme/RMX3031/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
@@ -2062,7 +2088,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib64/APUWareHmpServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareHmpServer.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/APUWareUtilsServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsServer.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/APUWareXrpServer_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareXrpServer_v2.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib64/AV1SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AV1SecureVdecCA.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib64/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/HEVCSecureVdecCA.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
@@ -2640,6 +2668,7 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk-mtk \
     libwifi-hal-mtk \
     ImsService \
+    EngineerMode \
     mediatek-common \
     mediatek-framework \
     mediatek-gwsd \
