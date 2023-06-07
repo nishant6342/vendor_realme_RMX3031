@@ -1,0 +1,19 @@
+#/************************************************************************************
+#** Copyright (C), 2008-2018, OPPO Mobile Comm Corp., Ltd
+#** File: init.oplus.cust.rc
+#**
+#** Description:
+#**	Definitions for init.oplus.cust.rc
+#**
+#** Version: 1.0
+#** Date created: 2022/03/25
+#** Author:
+#**
+#** --------------------------- Revision History: ------------------------------------
+#* <version>	    	<date>	    	<author>	             <desc>
+#* Revision 1.0		2021/09/13
+#**************************************************************************************/
+
+on post-fs-data && property:ro.vendor.oplus.market.name="OnePlus Nord 2 PAC-MAN ED"
+    mount overlay overlay /my_company/media lowerdir=/my_product/wallpaper_bak:/my_company/media,context=u:object_r:system_file:s0
+

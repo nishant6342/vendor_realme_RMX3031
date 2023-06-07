@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mnl_config version="19100901.6.00.99" type="gps">
+
+    <feature>GLP
+        <version>2.0</version>
+        <config>1</config>
+        <format>Enable</format>
+        <setting>1</setting>
+    </feature>
+
+    <feature>CAIC
+        <version>1.0</version>
+        <config>0</config>
+        <format>L1 CAIC FrequencyHz</format>
+        <setting>1560000000</setting>
+        <format>L5 CAIC FrequencyHz</format>
+        <setting>1170000000</setting>
+    </feature>
+
+    <feature>GnssMode
+        <version>1.0</version>
+        <config>0</config>
+        <format>GP+GL+BD:2, GP:3, BD:4, GP+GL+GA+BD:6, GP+GL+GA:8, GP+GL+GA+BD+NI:10</format>
+        <setting>6</setting>
+    </feature>
+
+    <feature>DCB
+        <version>1.0</version>
+        <config>1</config>
+        <format>L5_DCB_GPS,L5_DCB_QZSS,L5_DCB_CNSS,L5_DCB_GALILEO</format>
+        <setting>-5.01,-5.03,-4.73,-4.97</setting>
+    </feature>
+    
+    <feature>L1Only
+        <version>1.0</version>
+        <config>0</config>
+        <format>L1 only: 1</format>
+        <setting>0</setting>
+    </feature>
+    
+    <feature>L5Test
+        <version>1.0</version>
+        <config>0</config>
+        <format>Search and used GPS L5 satellites according to the healthy status: 0, Search and used GPS L5 satellites regardless of its healthy status: 1</format>
+        <setting>1</setting>
+    </feature>
+
+    <feature>Bluesky
+        <version>1.0</version>
+        <config>1</config>
+        <format>enable:0,disable:1</format>
+        <setting>2</setting>
+    </feature>
+
+    <feature>MDTime
+        <version>1.0</version>
+        <config>1</config>
+        <format>featureOption,requestInterval,sizeOfWindow,syncBackNum(optional)</format>
+        <setting>1,5000,1500,0</setting>
+    </feature>
+
+    <feature>CoTMS
+        <version>2.5</version>
+        <config>1</config>
+        <format>RTS,TEP</format>
+        <setting>0,1</setting>
+    </feature>
+
+    <feature>KPI
+        <version>1.0</version>
+        <config>1</config>
+        <setting>0x0,0xff</setting>
+    </feature>
+
+</mnl_config>

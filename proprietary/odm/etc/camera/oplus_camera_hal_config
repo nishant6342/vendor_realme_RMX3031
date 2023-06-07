@@ -1,0 +1,415 @@
+{
+    "sensorNameList" : ["ov64b","imx615","imx0355","gc02m1b","ov02b10"],
+
+    "projectName" : "20662",
+
+    "exifCommentStr" : "oppo_",
+
+    "isFirstFrameNeedSkipFDMeta" : "true",
+
+    "videoFDPeriod" : "66",
+
+    "pipSizeList" : [
+        {
+            "width" : "960",
+            "height": "1080"
+        },
+        {
+            "width" : "640",
+            "height": "720"
+        },
+        {
+            "width" : "480",
+            "height": "272"
+        },
+        {
+            "width" : "368",
+            "height": "368"
+        },
+        {
+            "width" : "320",
+            "height": "184"
+        },
+        {
+            "width" : "240",
+            "height": "240"
+        },
+        {
+            "width" : "640",
+            "height": "368"
+        },
+        {
+            "width" : "464",
+            "height": "464"
+        },
+        {
+            "width" : "432",
+            "height": "240"
+        },
+        {
+            "width" : "320",
+            "height": "320"
+        }
+    ],
+
+    "superNightParams" : [
+        {
+            "sensorname": "ov64b",
+            "handheld_ae_params": ["120000", "100000", "80000", "70000", "60000", "50000", "200", "150", "150", "100", "100", "64"],
+            "face_ae_params": ["120000", "100000", "80000", "70000", "60000", "50000", "200", "150", "150", "100", "100", "64"],
+            "tripod_ae_params": ["5000000", "16"]
+        },
+
+        {
+            "sensorname": "imx615",
+            "handheld_ae_params": ["200000", "160000", "140000", "120000", "80000", "60000", "200", "150", "150", "100", "100", "64"],
+            "face_ae_params": ["200000", "160000", "140000", "120000", "80000", "60000", "200", "150", "150", "100", "100", "64"],
+            "tripod_ae_params": ["5000000", "16"]
+        },
+
+        {
+            "sensorname": "imx0355",
+            "handheld_ae_params": ["120000", "100000", "80000", "70000", "60000", "50000", "32", "32", "32", "32", "32", "32"],
+            "face_ae_params": ["120000", "100000", "80000", "70000", "60000", "50000", "32", "32", "32", "32", "32", "32"],
+            "tripod_ae_params": ["5000000", "16"]
+        },
+
+        {
+            "sensorname": "imx616",
+            "handheld_ae_params": ["200000", "160000", "140000", "120000", "80000", "60000", "200", "150", "150", "100", "100", "64"],
+            "face_ae_params": ["200000", "160000", "140000", "120000", "80000", "60000", "200", "150", "150", "100", "100", "64"],
+            "tripod_ae_params": ["5000000", "16"]
+        }
+    ],
+
+    "customRzzoSize" : [
+        {
+            "operationMode" : "commonVideo",
+            "openId" : "0",
+            "packageName" : "com.google.android.youtube",
+            "limit_size" : ["1280", "720"],
+            "Resolution" : "720p",
+            "comment" : "oplus_caller"
+        },
+
+        {
+            "operationMode" : "commonVideo",
+            "openId" : "1",
+            "packageName" : "com.google.android.youtube",
+            "limit_size" : ["1280", "720"],
+            "Resolution" : "720p",
+            "comment" : "oplus_caller"
+        },
+
+        {
+            "operationMode" : "commonVideo",
+            "openId" : "0",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["1600", "900"],
+            "Resolution" : "720p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "commonVideo",
+            "openId" : "0",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["2400", "1350"],
+            "Resolution" : "1080p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "commonVideo",
+            "openId" : "0",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["3840", "2160"],
+            "Resolution" : "4K",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "commonVideo",
+            "openId" : "1",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["1600", "900"],
+            "Resolution" : "720p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "commonVideo",
+            "openId" : "1",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["2400", "1350"],
+            "Resolution" : "1080p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "commonVideo",
+            "openId" : "1",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["4096", "2160"],
+            "Resolution" : "4K",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "videoNight",
+            "openId" : "0",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["1600", "900"],
+            "Resolution" : "720p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "videoNight",
+            "openId" : "0",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["2816", "1584"],
+            "Resolution" : "1080p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "videoNight",
+            "openId" : "1",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["1600", "900"],
+            "Resolution" : "720p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "videoNight",
+            "openId" : "1",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["2400", "1350"],
+            "Resolution" : "1080p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "superEisFront",
+            "openId" : "1",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["1600", "900"],
+            "Resolution" : "720p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "superEisFront",
+            "openId" : "1",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["2400", "1350"],
+            "Resolution" : "1080p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "superNight",
+            "openId" : "0",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["1920", "1440"],
+            "Resolution" : "full",
+            "comment" : "aihdr"
+        },
+
+        {
+            "operationMode" : "superEis",
+            "openId" : "0",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["2100", "1184"],
+            "Resolution" : "1080p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "superEis",
+            "openId" : "2",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["2714", "1528"],
+            "Resolution" : "1080p",
+            "comment" : "resolution"
+        },
+
+        {
+            "operationMode" : "panorama",
+            "openId" : "0",
+            "packageName" : "com.oplus.camera",
+            "limit_size" : ["3840", "2160"],
+            "Resolution" : "full",
+            "comment" : "DSDN"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.eg.android.AlipayGphone",
+            "limit_size" : ["0", "0"],
+            "Resolution" : "default",
+            "comment" : "maxYuvStreamSize"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.smile.gifmaker",
+            "limit_size" : ["0", "0"],
+            "Resolution" : "default",
+            "comment" : "maxYuvStreamSize"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.snapchat.android",
+            "limit_size" : ["0", "0"],
+            "Resolution" : "default",
+            "comment" : "maxYuvStreamSize"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.android.incallui",
+            "limit_size" : ["0", "0"],
+            "Resolution" : "default",
+            "comment" : "maxYuvStreamSize"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.zhiliaoapp.musically",
+            "limit_size" : ["0", "0"],
+            "Resolution" : "default",
+            "comment" : "maxYuvStreamSize"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.facebook.katana",
+            "limit_size" : ["0", "0"],
+            "Resolution" : "default",
+            "comment" : "maxYuvStreamSize"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.whatsapp",
+            "limit_size" : ["0", "0"],
+            "Resolution" : "default",
+            "comment" : "maxYuvStreamSize"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.instagram.android",
+            "limit_size" : ["0", "0"],
+            "Resolution" : "default",
+            "comment" : "maxYuvStreamSize"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.google.android.youtube",
+            "limit_size" : ["0", "0"],
+            "Resolution" : "default",
+            "comment" : "maxYuvStreamSize"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.ss.android.ugc.aweme",
+            "limit_size" : ["1632", "1224"],
+            "Resolution" : "default",
+            "comment" : "upscale"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.tencent.mm",
+            "limit_size" : ["1632", "1224"],
+            "Resolution" : "default",
+            "comment" : "upscale"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.tencent.ig",
+            "limit_size" : ["1632", "1224"],
+            "Resolution" : "default",
+            "comment" : "upscale"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.tencent.mobileqq",
+            "limit_size" : ["1632", "1224"],
+            "Resolution" : "default",
+            "comment" : "upscale"
+        },
+
+        {
+            "operationMode" : "default",
+            "openId" : "0",
+            "packageName" : "com.whatsapp",
+            "limit_size" : ["1920", "1080"],
+            "Resolution" : "default",
+            "comment" : "not_larger_than"
+        }
+
+    ],
+
+    "customAEPlineMap" : [
+        {
+            "operationMode" : "professional",
+            "sceneMode": "PARTY"
+        },
+
+        {
+            "operationMode" : "panorama",
+            "sceneMode": "SPORTS"
+        },
+
+        {
+            "operationMode" : "filmVideo",
+            "sceneMode": "SPORTS"
+        },
+
+        {
+            "operationMode" : "filmVideoEis",
+            "sceneMode": "SPORTS"
+        },
+
+        {
+            "operationMode" : "pip",
+            "sceneMode": "SPORTS"
+        },
+
+        {
+            "operationMode" : "sportsVideo",
+            "sceneMode": "SUNSET"
+        },
+
+        {
+            "operationMode" : "thirdParty",
+            "sceneMode": "THEATRE"
+        }
+    ],
+
+    "oplusSuperEisEnable" : "true"
+
+}

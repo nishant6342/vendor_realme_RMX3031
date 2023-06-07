@@ -1,0 +1,96 @@
+service vendor.oplus.ormsHalService-aidl-default /odm/bin/hw/vendor.oplus.hardware.ormsHalService-aidl-service
+    class hal
+    user system
+    group system readproc root
+
+on post-fs-data
+   #for isolation/deisolation cpu
+   chown system system /proc/perfmgr/boost_ctrl/eas_ctrl/set_sched_isolation
+   chmod 0664 /proc/perfmgr/boost_ctrl/eas_ctrl/set_sched_isolation
+   chown system system /proc/perfmgr/boost_ctrl/eas_ctrl/set_sched_deisolation
+   chmod 0664 /proc/perfmgr/boost_ctrl/eas_ctrl/set_sched_deisolation
+   chmod 0664 /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
+   chmod 0664 /sys/devices/system/cpu/cpu0/core_ctl/max_cpus
+   chmod 0664 /sys/devices/system/cpu/cpu4/core_ctl/min_cpus
+   chmod 0664 /sys/devices/system/cpu/cpu4/core_ctl/max_cpus
+   chmod 0664 /sys/devices/system/cpu/cpu6/core_ctl/min_cpus
+   chmod 0664 /sys/devices/system/cpu/cpu6/core_ctl/max_cpus
+   chmod 0664 /proc/sys/kernel/input_boost_enabled
+   chmod 0664 /proc/sys/walt/input_boost_enabled
+   chown system system /sys/devices/system/cpu/cpufreq/policy0/schedutil/above_hispeed_delay
+   chmod 0664 /sys/devices/system/cpu/cpufreq/policy0/schedutil/above_hispeed_delay
+   chown system system /sys/devices/system/cpu/cpufreq/policy6/schedutil/above_hispeed_delay
+   chmod 0664 /sys/devices/system/cpu/cpufreq/policy6/schedutil/above_hispeed_delay
+   chown system system /sys/devices/system/cpu/cpufreq/policy7/schedutil/above_hispeed_delay
+   chmod 0664 /sys/devices/system/cpu/cpufreq/policy7/schedutil/above_hispeed_delay
+
+
+on boot
+    chmod 0664 /dev/stune/foreground/schedtune.prefer_idle
+    chmod 0664 /sys/devices/system/cpu/cpu_boost/input_boost_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu0-cpu-llcc-lat/max_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu6-cpu-llcc-lat/max_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu0-llcc-ddr-lat/max_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu6-llcc-ddr-lat/max_freq
+    chmod 0664 /sys/class/devfreq/18321000.qcom,devfreq-l3:qcom,cpu0-cpu-l3-lat/max_freq
+    chmod 0664 /sys/class/devfreq/18321000.qcom,devfreq-l3:qcom,cpu6-cpu-l3-lat/max_freq
+    chmod 0664 /sys/class/devfreq/18321000.qcom,devfreq-l3:qcom,cpu7-cpu-l3-lat/max_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu0-cpu-ddr-latfloor/min_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu4-cpu-ddr-latfloor/min_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu6-cpu-ddr-latfloor/min_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu7-cpu-ddr-latfloor/min_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu0-cpu-ddr-latfloor/max_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu4-cpu-ddr-latfloor/max_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu6-cpu-ddr-latfloor/max_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu7-cpu-ddr-latfloor/max_freq
+    chmod 0664 /proc/ufsplus_ctrl/wbfn_dynamic_tw_enable
+    chmod 0664 /proc/ufsplus_ctrl/wbfn_enable
+    chmod 0664 /dev/stune/top-app/schedtune.colocate
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-cpu-ddr-bw/min_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu0-cpu-ddr-lat/min_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/min_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/io_percent
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/sample_ms
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hist_memory
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hyst_length
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hyst_trigger_count
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/min_freq
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/io_percent
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/sample_ms
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/hist_memory
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/hyst_length
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/hyst_trigger_count
+    chmod 0664 /proc/sys/walt/input_boost/input_boost_freq
+    chmod 0664 /sys/devices/system/cpu/qcom_lpm/parameters/sleep_disabled
+    chmod 0664 /sys/devices/system/cpu/cpu7/core_ctl/enable
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hist_memory
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hyst_length
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/DDR/19091000.qcom,bwmon-ddr/hyst_trigger_count
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/hist_memory
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/hyst_length
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/LLCC/190b6400.qcom,bwmon-llcc/hyst_trigger_count
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy0/walt/target_loads
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy4/walt/target_loads
+    chmod 0664 /sys/devices/system/cpu/cpufreq/policy7/walt/target_loads
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:silver/min_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:prime/min_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:gold/min_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:silver/max_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:prime/max_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:gold/max_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:prime-compute/min_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/soc:qcom,memlat:l3:prime-compute/max_freq
+    chmod 0664 /sys/devices/platform/soc/soc:oplus-omrg/oplus-omrg0/ruler_enable
+    chmod 0664 /dev/cpuctl/foreground/cpu.uclamp.min
+    chmod 0664 /dev/cpuctl/background/cpu.uclamp.min
+    chmod 0664 /dev/cpuctl/top-app/cpu.uclamp.min
+    chmod 0664 /proc/sys/walt/sched_asymcap_boost
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/L3/boost_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/DDR/boost_freq
+    chmod 0664 /sys/devices/system/cpu/bus_dcvs/LLCC/boost_freq
+    chmod 0664 /proc/oplus_scheduler/sched_assist/sched_assist_enabled
+    chmod 0664 /dev/cpuset/display/cpus
+    chmod 0664 /sys/class/devfreq/kgsl-busmon/min_freq
+    chmod 0664 /sys/class/devfreq/3d00000.qcom,kgsl-3d0/min_freq
+    chmod 0664 /sys/class/devfreq/1d84000.ufshc/min_freq
+    chmod 0664 /sys/module/mmdvfs_pmqos/parameters/force_step
