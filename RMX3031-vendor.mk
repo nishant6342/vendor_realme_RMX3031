@@ -72,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor/realme/RMX3031/proprietary/odm/bin/hw/vendor.oplus.hardware.ormsHalService-aidl-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.ormsHalService-aidl-service \
     vendor/realme/RMX3031/proprietary/odm/bin/hw/vendor.oplus.hardware.performance@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.performance@1.0-service \
-    vendor/realme/RMX3031/proprietary/odm/bin/hw/vendor.oplus.hardware.stability.oplus_project@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.stability.oplus_project@1.0-service \
     vendor/realme/RMX3031/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
     vendor/realme/RMX3031/proprietary/odm/etc/audio/audio_device/common/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/common/audio_device.xml \
     vendor/realme/RMX3031/proprietary/odm/etc/audio/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/AudioParamOptions.xml \
@@ -703,7 +702,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
     vendor/realme/RMX3031/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
     vendor/realme/RMX3031/proprietary/odm/etc/camera/video_enhance.json:$(TARGET_COPY_OUT_ODM)/etc/camera/video_enhance.json \
-    vendor/realme/RMX3031/proprietary/odm/etc/devices_config/devices_config.json:$(TARGET_COPY_OUT_ODM)/etc/devices_config/devices_config.json \
     vendor/realme/RMX3031/proprietary/odm/etc/fad/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_ODM)/etc/fad/M_Attribute_AG_BMW_1.1.0.model \
     vendor/realme/RMX3031/proprietary/odm/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
     vendor/realme/RMX3031/proprietary/odm/etc/init/init.SN100x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.SN100x.nfc.rc \
@@ -717,7 +715,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger@1.0-service.rc \
     vendor/realme/RMX3031/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
     vendor/realme/RMX3031/proprietary/odm/etc/init/vendor.oplus.hardware.performance@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.performance@1.0-service.rc \
-    vendor/realme/RMX3031/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project@1.0-service.rc \
     vendor/realme/RMX3031/proprietary/odm/etc/media_codecs_ffmpeg.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_ffmpeg.xml \
     vendor/realme/RMX3031/proprietary/odm/etc/media_codecs_vendor_oplus.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_vendor_oplus.xml \
     vendor/realme/RMX3031/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -1095,7 +1092,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.osense.client@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/vendor.oplus.hardware.stability.oplus_project@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.stability.oplus_project@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/anc.capacitive.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.capacitive.hal.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@2.0.so \
@@ -1472,14 +1468,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.charger@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cryptoeng@1.0.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.engcamera@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.engcamera@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.engineer@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.engineer@1.0.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.felica@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.felica@1.0-impl.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.felica@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.felica@1.0.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.gameopt@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.gameopt@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.misc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.misc@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so \
@@ -1488,10 +1478,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.rpmh@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.rpmh@2.0.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.stability.oplus_project@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.stability.oplus_project@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.subsys-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.subsys-V1-ndk_platform.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/vendor.oplus.hardware.transmessage@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.transmessage@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin \
     vendor/realme/RMX3031/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin \
     vendor/realme/RMX3031/proprietary/odm/vendor/app/mcRegistry/04320000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/04320000000000000000000000000000.tlbin \
@@ -1511,7 +1498,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/system_ext/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.osense.client@1.0.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib/vendor.oplus.hardware.stability.oplus_project@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.stability.oplus_project@1.0.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libHeifEncoderWrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifEncoderWrapper.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libHeifWinBufExchg-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifWinBufExchg-jni.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libNativeWinBuffExchange.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libNativeWinBuffExchange.so \
@@ -1581,7 +1567,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.cameraMDM@1.0.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/vendor.oplus.hardware.stability.oplus_project@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.stability.oplus_project@1.0.so \
     vendor/realme/RMX3031/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     vendor/realme/RMX3031/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     vendor/realme/RMX3031/proprietary/vendor/app/mcRegistry/05120000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/05120000000000000000000000000000.drbin \
@@ -1666,7 +1651,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/realme/RMX3031/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
     vendor/realme/RMX3031/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
-    vendor/realme/RMX3031/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
     vendor/realme/RMX3031/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
     vendor/realme/RMX3031/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
     vendor/realme/RMX3031/proprietary/vendor/bin/mt6660_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/mt6660_calibration \
@@ -1828,11 +1812,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/etc/bluetooth_ums_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_ums_offload_audio_policy_configuration.xml \
     vendor/realme/RMX3031/proprietary/vendor/etc/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     vendor/realme/RMX3031/proprietary/vendor/etc/cust_color.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color.xml \
-    vendor/realme/RMX3031/proprietary/vendor/etc/cust_color_20171_boe_nt37701_boe.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_20171_boe_nt37701_boe.xml \
-    vendor/realme/RMX3031/proprietary/vendor/etc/cust_color_20171_tm_nt37701_tm42.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_20171_tm_nt37701_tm42.xml \
-    vendor/realme/RMX3031/proprietary/vendor/etc/cust_color_21015_boe_nt37701.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_21015_boe_nt37701.xml \
-    vendor/realme/RMX3031/proprietary/vendor/etc/cust_color_21015_tianma_ili7838.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_21015_tianma_ili7838.xml \
-    vendor/realme/RMX3031/proprietary/vendor/etc/cust_color_21015_tianma_nt37701_42.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_21015_tianma_nt37701_42.xml \
+    vendor/realme/RMX3031/proprietary/vendor/etc/cust_color_20615_samsung_amsye04_1080p_dsi_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_20615_samsung_amsye04_1080p_dsi_cmd.xml \
     vendor/realme/RMX3031/proprietary/vendor/etc/cust_silky_brightness.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_silky_brightness.xml \
     vendor/realme/RMX3031/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/realme/RMX3031/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
@@ -1975,7 +1955,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/realme/RMX3031/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/realme/RMX3031/proprietary/vendor/etc/nhw:$(TARGET_COPY_OUT_VENDOR)/etc/nhw \
-    vendor/realme/RMX3031/proprietary/vendor/etc/oplus_avb.pubkey:$(TARGET_COPY_OUT_VENDOR)/etc/oplus_avb.pubkey \
     vendor/realme/RMX3031/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
     vendor/realme/RMX3031/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
     vendor/realme/RMX3031/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
@@ -2660,7 +2639,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/modules/trace_mmstat.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/trace_mmstat.ko \
     vendor/realme/RMX3031/proprietary/vendor/lib/mt6893/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/arm.graphics-V1-ndk_platform.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/mt6893/arm.graphics-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/arm.graphics-ndk_platform.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/mt6893/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libaiselector.so \

@@ -35,40 +35,66 @@
         <u4SHPGain>1</u4SHPGain>
         <u4SatGain>4</u4SatGain>
         <u4PartialY>0</u4PartialY>
+        <u4HueAdj>0 0 0 0</u4HueAdj>
+        <u4SatAdj>0 0 0 0</u4SatAdj>
+        <u4Contrast>4</u4Contrast>
+        <u4Brightness>4</u4Brightness>
+        <u4Ccorr>0</u4Ccorr>
+        <u4ColorLUT>0</u4ColorLUT>
+        </Index_2>
+
+        <Index_3>
+        <u4SHPGain>1</u4SHPGain>
+        <u4SatGain>4</u4SatGain>
+        <u4PartialY>0</u4PartialY>
         <u4HueAdj>1 1 1 1</u4HueAdj>
         <u4SatAdj>1 1 1 1</u4SatAdj>
         <u4Contrast>4</u4Contrast>
         <u4Brightness>4</u4Brightness>
         <u4Ccorr>1</u4Ccorr>
-        <u4ColorLUT>1</u4ColorLUT>
-        </Index_2>
-
-        <Index_3>
-        <u4SHPGain>2</u4SHPGain>
-        <u4SatGain>9</u4SatGain>
-        <u4PartialY>0</u4PartialY>
-        <u4HueAdj>9 9 12 12</u4HueAdj>
-        <u4SatAdj>16 16 16 16</u4SatAdj>
-        <u4Contrast>4</u4Contrast>
-        <u4Brightness>4</u4Brightness>
-        <u4Ccorr>0</u4Ccorr>
         <u4ColorLUT>0</u4ColorLUT>
         </Index_3>
 
         <Index_4>
-        <u4SHPGain>10</u4SHPGain>
-        <u4SatGain>9</u4SatGain>
+        <u4SHPGain>1</u4SHPGain>
+        <u4SatGain>4</u4SatGain>
         <u4PartialY>0</u4PartialY>
-        <u4HueAdj>9 9 12 12</u4HueAdj>
-        <u4SatAdj>16 16 18 18</u4SatAdj>
+        <u4HueAdj>1 1 1 1</u4HueAdj>
+        <u4SatAdj>1 1 1 1</u4SatAdj>
         <u4Contrast>4</u4Contrast>
         <u4Brightness>4</u4Brightness>
-        <u4Ccorr>0</u4Ccorr>
+        <u4Ccorr>1</u4Ccorr>
         <u4ColorLUT>0</u4ColorLUT>
         </Index_4>
 
         <Index_5>
         <u4SHPGain>1</u4SHPGain>
+        <u4SatGain>4</u4SatGain>
+        <u4PartialY>0</u4PartialY>
+        <u4HueAdj>1 1 1 1</u4HueAdj>
+        <u4SatAdj>1 1 1 1</u4SatAdj>
+        <u4Contrast>4</u4Contrast>
+        <u4Brightness>4</u4Brightness>
+        <u4Ccorr>1</u4Ccorr>
+        <u4ColorLUT>0</u4ColorLUT>
+        </Index_5>
+
+        <Index_6>
+        <u4SHPGain>1</u4SHPGain>
+        <u4SatGain>4</u4SatGain>
+        <u4PartialY>0</u4PartialY>
+        <u4HueAdj>2 2 2 2</u4HueAdj>
+        <u4SatAdj>2 2 2 2</u4SatAdj>
+        <u4Contrast>4</u4Contrast>
+        <u4Brightness>4</u4Brightness>
+        <u4Ccorr>2</u4Ccorr>
+        <u4ColorLUT>0</u4ColorLUT>
+        </Index_6>
+    </pqparam_table>
+
+    <pqparam_table_mdp>
+        <Index_0>
+        <u4SHPGain>2</u4SHPGain>
         <u4SatGain>4</u4SatGain>
         <u4PartialY>0</u4PartialY>
         <u4HueAdj>9 9 12 12</u4HueAdj>
@@ -77,40 +103,14 @@
         <u4Brightness>4</u4Brightness>
         <u4Ccorr>0</u4Ccorr>
         <u4ColorLUT>0</u4ColorLUT>
-        </Index_5>
-
-        <Index_6>
-        <u4SHPGain>2</u4SHPGain>
-        <u4SatGain>9</u4SatGain>
-        <u4PartialY>0</u4PartialY>
-        <u4HueAdj>9 9 12 12</u4HueAdj>
-        <u4SatAdj>16 16 16 16</u4SatAdj>
-        <u4Contrast>4</u4Contrast>
-        <u4Brightness>4</u4Brightness>
-        <u4Ccorr>0</u4Ccorr>
-        <u4ColorLUT>0</u4ColorLUT>
-        </Index_6>
-    </pqparam_table>
-
-    <pqparam_table_mdp>
-        <Index_0>
-        <u4SHPGain>1</u4SHPGain>
-        <u4SatGain>4</u4SatGain>
-        <u4PartialY>0</u4PartialY>
-        <u4HueAdj>0 0 0 0</u4HueAdj>
-        <u4SatAdj>0 0 0 0</u4SatAdj>
-        <u4Contrast>4</u4Contrast>
-        <u4Brightness>4</u4Brightness>
-        <u4Ccorr>0</u4Ccorr>
-        <u4ColorLUT>0</u4ColorLUT>
         </Index_0>
 
         <Index_1>
-        <u4SHPGain>1</u4SHPGain>
+        <u4SHPGain>10</u4SHPGain>
         <u4SatGain>4</u4SatGain>
         <u4PartialY>0</u4PartialY>
-        <u4HueAdj>0 0 0 0</u4HueAdj>
-        <u4SatAdj>0 0 0 0</u4SatAdj>
+        <u4HueAdj>9 9 12 12</u4HueAdj>
+        <u4SatAdj>0 6 12 12</u4SatAdj>
         <u4Contrast>4</u4Contrast>
         <u4Brightness>4</u4Brightness>
         <u4Ccorr>0</u4Ccorr>
@@ -121,8 +121,8 @@
         <u4SHPGain>1</u4SHPGain>
         <u4SatGain>4</u4SatGain>
         <u4PartialY>0</u4PartialY>
-        <u4HueAdj>0 0 0 0</u4HueAdj>
-        <u4SatAdj>0 0 0 0</u4SatAdj>
+        <u4HueAdj>9 9 12 12</u4HueAdj>
+        <u4SatAdj>0 6 10 10</u4SatAdj>
         <u4Contrast>4</u4Contrast>
         <u4Brightness>4</u4Brightness>
         <u4Ccorr>0</u4Ccorr>
@@ -180,11 +180,11 @@
 
     <pqparam_table_ai>
         <Index_0>
-        <u4SHPGain>1</u4SHPGain>
+        <u4SHPGain>2</u4SHPGain>
         <u4SatGain>4</u4SatGain>
         <u4PartialY>0</u4PartialY>
-        <u4HueAdj>0 0 0 0</u4HueAdj>
-        <u4SatAdj>0 0 0 0</u4SatAdj>
+        <u4HueAdj>9 9 12 12</u4HueAdj>
+        <u4SatAdj>0 6 10 10</u4SatAdj>
         <u4Contrast>4</u4Contrast>
         <u4Brightness>4</u4Brightness>
         <u4Ccorr>0</u4Ccorr>
@@ -192,11 +192,11 @@
         </Index_0>
 
         <Index_1>
-        <u4SHPGain>1</u4SHPGain>
+        <u4SHPGain>10</u4SHPGain>
         <u4SatGain>4</u4SatGain>
         <u4PartialY>0</u4PartialY>
-        <u4HueAdj>0 0 0 0</u4HueAdj>
-        <u4SatAdj>0 0 0 0</u4SatAdj>
+        <u4HueAdj>9 9 12 12</u4HueAdj>
+        <u4SatAdj>0 6 12 12</u4SatAdj>
         <u4Contrast>4</u4Contrast>
         <u4Brightness>4</u4Brightness>
         <u4Ccorr>0</u4Ccorr>
@@ -207,8 +207,8 @@
         <u4SHPGain>1</u4SHPGain>
         <u4SatGain>4</u4SatGain>
         <u4PartialY>0</u4PartialY>
-        <u4HueAdj>0 0 0 0</u4HueAdj>
-        <u4SatAdj>0 0 0 0</u4SatAdj>
+        <u4HueAdj>9 9 12 12</u4HueAdj>
+        <u4SatAdj>0 6 10 10</u4SatAdj>
         <u4Contrast>4</u4Contrast>
         <u4Brightness>4</u4Brightness>
         <u4Ccorr>0</u4Ccorr>
@@ -661,22 +661,22 @@
         </PURP_TONE_S>
         <SKIN_TONE_S>
             <skin_table_0>
-                <row0>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row0>
+                <row0>0x80 0x79 0x84 0x73 0x88 0x80 0x86 0x80</row0>
                 <row1>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row1>
-                <row2>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row2>
+                <row2>0x80 0x80 0x78 0x80 0x80 0x80 0x80 0x80</row2>
                 <row3>0x14 0x14 0x14 0x14 0x14 0x14 0x14 0x14</row3>
                 <row4>0x3c 0x3c 0x3c 0x3c 0x3c 0x3c 0x3c 0x3c</row4>
             </skin_table_0>
             <skin_table_1>
-                <row0>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row0>
+                <row0>0x72 0x61 0x65 0x62 0x72 0x81 0x80 0x80</row0>
                 <row1>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row1>
-                <row2>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row2>
+                <row2>0x80 0x80 0x80 0x80 0x83 0x80 0x80 0x80</row2>
                 <row3>0x14 0x14 0x14 0x14 0x14 0x14 0x14 0x14</row3>
                 <row4>0x3c 0x3c 0x3c 0x3c 0x3c 0x3c 0x3c 0x3c</row4>
             </skin_table_1>
             <skin_table_2>
                 <row0>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row0>
-                <row1>0x8b 0x8c 0x8f 0x8f 0x8f 0x8f 0x8f 0x80</row1>
+                <row1>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row1>
                 <row2>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row2>
                 <row3>0x14 0x14 0x14 0x14 0x14 0x14 0x14 0x14</row3>
                 <row4>0x3c 0x3c 0x3c 0x3c 0x3c 0x3c 0x3c 0x3c</row4>
@@ -796,7 +796,7 @@
         </SKIN_TONE_S>
         <GRASS_TONE_S>
             <grass_table_0>
-                <row0>0x80 0x80 0x80 0x80 0x80 0x80</row0>
+                <row0>0x80 0x80 0x7b 0x80 0x80 0x80</row0>
                 <row1>0x80 0x80 0x80 0x80 0x80 0x80</row1>
                 <row2>0x80 0x80 0x80 0x80 0x80 0x80</row2>
                 <row3>0x14 0x14 0x14 0x14 0x14 0x14</row3>
@@ -811,7 +811,7 @@
             </grass_table_1>
             <grass_table_2>
                 <row0>0x80 0x80 0x80 0x80 0x80 0x80</row0>
-                <row1>0x8f 0x8f 0x8f 0x8f 0x8b 0x80</row1>
+                <row1>0x80 0x80 0x80 0x80 0x80 0x80</row1>
                 <row2>0x80 0x80 0x80 0x80 0x80 0x80</row2>
                 <row3>0x14 0x14 0x14 0x14 0x14 0x14</row3>
                 <row4>0x3c 0x3c 0x3c 0x3c 0x3c 0x3c</row4>
@@ -946,7 +946,7 @@
             </sky_table_1>
             <sky_table_2>
                 <row0>0x80 0x80 0x80</row0>
-                <row1>0x8b 0x8f 0x8b</row1>
+                <row1>0x80 0x80 0x80</row1>
                 <row2>0x80 0x80 0x80</row2>
                 <row3>0x14 0x14 0x14</row3>
                 <row4>0x3C 0x3C 0x3C</row4>
@@ -1086,9 +1086,9 @@
             <row18>0x80 0x80 0x80</row18>
         </PURP_TONE_H>
         <SKIN_TONE_H>
-            <row0>0x80 0x80 0x80 0x80 0x80 0x7f 0x80 0x80</row0>
-            <row1>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row1>
-            <row2>0x80 0x80 0x75 0x6b 0x69 0x6b 0x72 0x80</row2>
+            <row0>0x80 0x80 0x80 0x85 0x7d 0x86 0x7a 0x80</row0>
+            <row1>0x7c 0x92 0x8f 0x8c 0x8b 0x90 0x87 0x80</row1>
+            <row2>0x80 0x80 0x80 0x80 0x80 0x80 0x80 0x80</row2>
             <row3>0x80 0x80 0x76 0x6e 0x6c 0x6d 0x73 0x80</row3>
             <row4>0x80 0x80 0x77 0x70 0x70 0x70 0x76 0x80</row4>
             <row5>0x80 0x80 0x79 0x73 0x73 0x73 0x77 0x80</row5>
@@ -1107,9 +1107,9 @@
             <row18>0x8b 0x96 0x9c 0x9c 0x9c 0x99 0x90 0x80</row18>
         </SKIN_TONE_H>
         <GRASS_TONE_H>
-            <row0>0x80 0x80 0x80 0x80 0x80 0x80</row0>
-            <row1>0x80 0x80 0x80 0x80 0x80 0x80</row1>
-            <row2>0x78 0x6d 0x69 0x6d 0x75 0x80</row2>
+            <row0>0x80 0x80 0x7b 0x80 0x80 0x80</row0>
+            <row1>0x80 0x80 0x83 0x80 0x80 0x80</row1>
+            <row2>0x80 0x80 0x80 0x80 0x80 0x80</row2>
             <row3>0x79 0x6f 0x6d 0x70 0x76 0x80</row3>
             <row4>0x79 0x71 0x70 0x71 0x77 0x80</row4>
             <row5>0x7a 0x73 0x73 0x73 0x78 0x80</row5>
@@ -1129,8 +1129,8 @@
         </GRASS_TONE_H>
         <SKY_TONE_H>
             <row0>0x80 0x80 0x80</row0>
-            <row1>0x80 0x80 0x80</row1>
-            <row2>0x73 0x69 0x72</row2>
+            <row1>0x80 0x88 0x80</row1>
+            <row2>0x80 0x80 0x80</row2>
             <row3>0x75 0x6d 0x74</row3>
             <row4>0x77 0x70 0x76</row4>
             <row5>0x7a 0x73 0x79</row5>
@@ -1150,19 +1150,19 @@
         </SKY_TONE_H>
         <CCORR_COEF>
             <ccorr_table_0>
-                <row0>0x3c0 0x021 0x020</row0>
-                <row1>0x009 0x3da 0x01d</row1>
-                <row2>0xfff 0x011 0x3f0</row2>
+                <row0>0x2dc 0x115 0x00f</row0>
+                <row1>0xff1 0x3eb 0x024</row1>
+                <row2>0x016 0x068 0x382</row2>
             </ccorr_table_0>
             <ccorr_table_1>
-                <row0>0x303 0x0d2 0x02b</row0>
-                <row1>0x030 0x3b4 0x01c</row1>
-                <row2>0x016 0x058 0x392</row2>
+                <row0>0x3f9 0x00f 0xff8</row0>
+                <row1>0xfb4 0x43f 0x00d</row1>
+                <row2>0x01b 0xffc 0x3e9</row2>
             </ccorr_table_1>
             <ccorr_table_2>
-                <row0>0x400 0x0 0x0</row0>
-                <row1>0x0 0x400 0x0</row1>
-                <row2>0x0 0x0 0x400</row2>
+                <row0>0x21d 0x14e 0x095</row0>
+                <row1>0x016 0x38c 0x05e</row1>
+                <row2>0x023 0x09c 0x341</row2>
             </ccorr_table_2>
             <ccorr_table_3>
                 <row0>0x400 0x0 0x0</row0>
