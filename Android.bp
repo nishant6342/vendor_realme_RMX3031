@@ -284,24 +284,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-mtk",
-	owner: "realme",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "gnss@2.1-service-mtk",
-	owner: "realme",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service-mtk.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "lbs_hidl_service@1.0",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
