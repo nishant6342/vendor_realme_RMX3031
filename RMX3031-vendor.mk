@@ -3313,6 +3313,7 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
+    mediatek-wfo-legacy \
     oplus-framework \
     oplus-support-wrapper \
     vendor.oplus.hardware.ormsHalService-V1-java \

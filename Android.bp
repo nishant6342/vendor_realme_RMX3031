@@ -215,6 +215,12 @@ dex_import {
 }
 
 dex_import {
+	name: "mediatek-wfo-legacy",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-wfo-legacy.jar"],
+}
+
+dex_import {
 	name: "oplus-framework",
 	owner: "realme",
 	jars: ["proprietary/framework/oplus-framework.jar"],
