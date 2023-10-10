@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audio_config>
+    <feature name="USB_SPEECH_ECHO_DELAY" config="yes"/>
+    <feature name="GOODIX_LVIMFS" config="All"/>
+    <feature name="OPLUS_KTV" config="KTV_V2_PCM"/>
+    <feature name="OPLUS_IV_DATA_SUPPORT" config="yes"/>
+    <feature name="OPLUS_RECORD_MUTE_TIME_MS" config="200"/>
+    <feature name="OPLUS_USB_KTV_SUPPORT" config="yes"/>
+    <feature name="OPLUS_KTV_USB_GAIN" config="15"/>
+    <feature name="OPLUS_KTV_LOOP_GAIN" config="14"/>
+    <feature name="OPLUS_KTV_REC_GAIN" config="0"/>
+</audio_config>

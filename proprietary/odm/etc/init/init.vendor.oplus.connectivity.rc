@@ -1,0 +1,60 @@
+#================================connectivity wifi related start========================================
+#ifdef OPLUS_FEATURE_WIFI_DUMP
+#JiaoBo.Wang@CONNECTIVITY.WIFI.BASIC.LOG.1162003, 2018/7/02
+#add for wifi dump related log collection and DCS handle, dynamic enable/disable wifi core dump, offer trigger wifi dump API.
+on property:sys.oplus.wifi.dump.needupload=1
+    start clearWifiDumpFile
+
+on property:sys.oplus.wifi.dump.logcollect=1
+    start clearWifiDumpFile
+
+service clearWifiDumpFile /vendor/bin/sh /odm/bin/init.vendor.wifi.autochmod.sh clearWifiDumpFile
+    class main
+    user system
+    group root misc wifi system
+    disabled
+    oneshot
+#endif /* OPLUS_FEATURE_WIFI_DUMP */
+
+#ifdef OPLUS_FEATURE_WIFI_SAR
+#Shanbolun@CONNECTIVITY.WIFI.BASIC.HARDWARE.337348, 2020/9/17
+#add property to trigger wifisar command
+on property:sys.oplus.wlan.sar_idx=*
+    start wifisar
+
+service wifisar /vendor/bin/sh /odm/bin/init.vendor.wifi.autochmod.sh excuteSarCommand
+    class main
+    user root
+    group root misc wifi
+    disabled
+    oneshot
+#endif /* OPLUS_FEATURE_WIFI_SAR */
+#================================connectivity wifi related end==========================================
+
+#ifdef OPLUS_FEATURE_WIFI_RUSUPGRADE
+#JiaoBo@CONNECTIVITY.WIFI.BASIC.HARDWARE.2795386, 2020/02/20
+#add for: support auto update function, include mtk fw, mtk wifi.cfg, qcom fw, qcom bdf, qcom ini
+#bootup check
+service rusWifiPreBootCheck /vendor/bin/sh /odm/bin/init.vendor.wifi.autochmod.sh rusWifiVendorVerBootCheck
+    user root
+    group root system misc wifi
+    class late_start
+    oneshot
+
+#single entity(objs) upgrade
+on property:sys.oplus.wifi.rus.upgrade.ctl=2
+    start rusWifiObjsPreUpgrade
+
+service rusWifiObjsPreUpgrade /vendor/bin/sh /odm/bin/init.vendor.wifi.autochmod.sh rusWifiVendorVerUpgradeCheck
+    class main
+    user root
+    group root misc wifi
+    disabled
+    oneshot
+
+#endif /* OPLUS_FEATURE_WIFI_RUSUPGRADE */
+
+#================================connectivity bt related start==========================================
+
+#================================connectivity bt related end ===========================================
+

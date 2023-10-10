@@ -1,0 +1,7 @@
+##ifndef OPLUS_FEATURE_CHG_BASIC
+##/* LiYue@CHG.BSP.BASIC, 2021/09/22, remove platform gauge to device/mediatek/mtxxxx/init.mtxxxx.rc*/
+#service fuelgauged /vendor/bin/fuelgauged
+#    class core
+#    user system
+#    group system
+##endif

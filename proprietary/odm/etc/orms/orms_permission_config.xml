@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <filter-conf>
+        <project>19065</project>
+        <version>20200228</version>
+        <isOpen>true</isOpen>
+        <filter-name>orms_permission_config</filter-name>
+    </filter-conf>
+
+    <config name="permission">
+        <pack name="com.tencent.mm" level="1"/>
+        <pack name="com.android.mms" level="1"/>
+    </config>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

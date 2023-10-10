@@ -1,0 +1,6 @@
+# Add 'readproc' for 'proc/pid/task/tid/*'
+service vendor.performance-1-0 /odm/bin/hw/vendor.oplus.hardware.performance@1.0-service
+    class hal
+    capabilities SYS_PTRACE
+    user root
+    group system readproc
