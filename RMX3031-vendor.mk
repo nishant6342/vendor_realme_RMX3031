@@ -2564,6 +2564,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib/libsensorndkbridge-v32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge-v32.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
@@ -3109,6 +3110,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib64/libsensorndkbridge-v32.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-v32.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
