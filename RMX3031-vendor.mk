@@ -1063,7 +1063,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib/libswscale.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib/libtfavib.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib/libtrustonic_keybox_ca.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libui.so:$(TARGET_COPY_OUT_ODM)/lib/libui.so \
+    vendor/realme/RMX3031/proprietary/odm/lib/libui_oplus.so:$(TARGET_COPY_OUT_ODM)/lib/libui_oplus.so \
     vendor/realme/RMX3031/proprietary/odm/lib/ov02b10_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/ov02b10_mipi_raw_20615_tuning.so \
     vendor/realme/RMX3031/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
@@ -1446,7 +1446,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib64/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib64/libtfavib.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libtflite_mtk_static.so:$(TARGET_COPY_OUT_ODM)/lib64/libtflite_mtk_static.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib64/libtrustonic_keybox_ca.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libui.so:$(TARGET_COPY_OUT_ODM)/lib64/libui.so \
+    vendor/realme/RMX3031/proprietary/odm/lib64/libui_oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libui_oplus.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libvideoautozoom.arcsoft.so:$(TARGET_COPY_OUT_ODM)/lib64/libvideoautozoom.arcsoft.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus.sensors.ssc.so \
@@ -2564,7 +2564,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libsensorndkbridge-v32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge-v32.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
@@ -2597,6 +2597,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/mt6893/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/arm.graphics-V1-ndk_platform.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/mt6893/arm.graphics-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/arm.graphics-ndk_platform.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/mt6893/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libaiselector.so \
@@ -3103,6 +3105,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqpconfig.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-3.9.1.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
@@ -3110,7 +3113,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib64/libsensorndkbridge-v32.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-v32.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
