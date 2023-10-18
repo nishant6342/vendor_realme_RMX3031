@@ -5,7 +5,7 @@ service neuralnetworks_hal_service_mtk_neuron /vendor/bin/hw/android.hardware.ne
     disabled
 
 on property:ro.vendor.mtk_nn_baseline_support=1
-    start neuralnetworks_hal_service_mtk_neuron
+    enable neuralnetworks_hal_service_mtk_neuron
 
 on post-fs-data
     mkdir /data/vendor/hmp 0775 system system
