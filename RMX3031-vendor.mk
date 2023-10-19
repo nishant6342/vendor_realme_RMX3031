@@ -1498,44 +1498,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libapuwareutils_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils_v2.mtk.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp.mtk.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libapuwarexrp_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp_v2.mtk.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/libaudiopolicyextimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaudiopolicyextimpl.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libcsextimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcsextimpl.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuron_graph_delegate.mtk.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuronusdk_adapter.mtk.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnir_neon_driver_ndk.mtk.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libnn_sample.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnn_sample.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusHeifDecoderImpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusHeifDecoderImpl.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusNetd.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusNetd.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplus_10bitHeif.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_10bitHeif.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplus_display_input.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_display_input.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplus_display_scene.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_display_scene.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplus_display_watchcall.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_display_watchcall.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplus_heifconverter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_heifconverter.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplus_imageprocessing.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_imageprocessing.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplus_multimedia_kernel_event.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_multimedia_kernel_event.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplus_osvelte_malloc_debug.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_osvelte_malloc_debug.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusaudioDump.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusaudioDump.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusbluetooth_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusbluetooth_jni.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusbpf.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusbpf.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusextbootmode.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusextbootmode.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusextproperty.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusextproperty.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusextstability.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusextstability.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusextuevent.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusextuevent.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusextzawgyi.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusextzawgyi.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusgraphic.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusgraphic.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusheifwriter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusheifwriter.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplushwui_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplushwui_jni.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusloadframe.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusloadframe.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusmagicvoiceloopback.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusmagicvoiceloopback.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusmultimediaconfig.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusmultimediaconfig.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusplugin.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusplugin.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusrecorder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusrecorder.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplussfplugin_ccodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplussfplugin_ccodec.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusstagefright.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusstagefright.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusstagefright__mp3enc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusstagefright__mp3enc.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplustinyxml.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplustinyxml.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/liboplusutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusutils.so \
-    vendor/realme/RMX3031/proprietary/system_ext/lib64/librenderengineextimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/librenderengineextimpl.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libsuperNight.oplus.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsuperNight.oplus.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtflite_mtk.mtk.so \
     vendor/realme/RMX3031/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
@@ -1914,7 +1886,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/etc/md/cacerts/tls/staatderNederlandenEVRootCA_KPN.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/staatderNederlandenEVRootCA_KPN.crt \
     vendor/realme/RMX3031/proprietary/vendor/etc/md/cacerts/tls/xcap.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/xcap.crt \
     vendor/realme/RMX3031/proprietary/vendor/etc/md/cacerts/tls/xcap_KPN.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/xcap_KPN.crt \
-    vendor/realme/RMX3031/proprietary/vendor/etc/media_codecs_mediatek_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_audio.xml \
     vendor/realme/RMX3031/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/realme/RMX3031/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/realme/RMX3031/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
@@ -2562,7 +2533,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
@@ -3104,7 +3074,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqpconfig.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-3.9.1.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
@@ -3112,7 +3081,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
     vendor/realme/RMX3031/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
